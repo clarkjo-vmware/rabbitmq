@@ -1,0 +1,10 @@
+apiVersion: packaging.carvel.dev/v1alpha1
+kind: PackageInstall
+metadata:
+  name: tanzu-rabbitmq
+spec:
+  serviceAccountName: tanzu-rabbitmq # Replace with service account name
+  packageRef:
+    refName: rabbitmq.tanzu.vmware.com
+    versionSelection:
+      constraints: 1.2.0 # Replace with release version# Replace BUNDLE_VERSION with the release version and replace registry.tanzu.vmware.com with your own registry url if the package is placed in another location
