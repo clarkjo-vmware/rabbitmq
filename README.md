@@ -96,6 +96,6 @@ spec:
 kubectl apply -f <rabbitmq_object_filename>.yml
 ```
 
-### Conclusion
+
 
 
